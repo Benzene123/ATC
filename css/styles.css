@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body {
+    max-width: 100%;
+}
+#title {
+    height: 100vh;
+} 
+#title .row:first-of-type,.navbar{
+    padding: 5px 50px;
+    margin-bottom: 30px;
+}
+.navbar-brand {
+    font-family: "Merriweather Sans" sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+nav {
+    width: auto;
+}
+.nav-item {
+    font-family: "Balsamiq Sans" , cursive;
+    font-weight: bold;
+}
+    
+h1 {
+    padding-top: 30px;
+    line-height: 2;
+    font-family: "ubuntu", sans-serif;
+}
+
+.img-fluid {
+    float: right;
+    height: 720px;
+    width: 443px;
+}
+.one-1 {
+    width: 100%;
+    padding: 10% 7% 0%; 
+}
+@media screen and (max-width: 370px) {
+   
+    #title {
+       height: 100vh;
+       font-size: small;
+    }
+    .img-fluid {
+        margin-bottom: 50px;
+    }
+    .navbar {
+        margin-left: -30px;
+    }
+    .navbar-toggler {
+        margin-right: -30px;
+    }
+    .one-1 h1 {
+        margin-bottom: 50px;
+    }
+    .row img {
+        padding: 20px 0px;
+    }
+    .card {
+        margin: 20px 0px 80px;
+    }
+    .card-body{
+        margin-top: 0px;
+    }
+    
+}
+
+#ABOUT {
+    background-color: #2C3E50;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.heading {
+    padding: 30px 0px;
+}
+.one {
+    padding-bottom: 5%;
+    line-height: 1.5rem;
+
+}
+    img {
+        height: 250px;
+        width: 300px;
+        padding-right: 0px;
+    }
+
+#PRICING {
+    text-align: center;
+    padding: 50px 50px 0px;
+}
+.pricing-column {
+    padding: 5%;
+}
+.card-body{
+    height: 15rem;
+    line-height: 2rem;
+}
+#CONTACT {
+    text-align: center;
+
+}
+
